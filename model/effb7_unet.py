@@ -102,6 +102,7 @@ class EFFUnet(nn.Module):
     def __init__(self, n_classes):
         super().__init__()
 
+        self.n_classes = n_classes
         model = EfficientNet.from_pretrained('efficientnet-b7')
         model.to(device=device)
 
