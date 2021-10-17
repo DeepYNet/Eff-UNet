@@ -2,6 +2,10 @@
 
 This repository contains EffUnet segmentation model. The model files and training files are uploaded. 
 
+## Model structure
+
+![EffUnet](https://github.com/DeepYNet/Eff-UNet/blob/main/assets/EffUnet.PNG)
+
 ## Steps to Run
 - Clone the repo
 - Activate conda environment
